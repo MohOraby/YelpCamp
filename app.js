@@ -14,7 +14,8 @@ authRoutes = require("./routes/auth")
 
 
 
-mongoose.connect("mongodb://localhost/yelpcamp");
+// mongoose.connect("mongodb://localhost/yelpcamp");
+mongoose.connect("mongodb://Mohamed:tada@ds123919.mlab.com:23919/yelpcamp");
 app.use(bodyparser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
