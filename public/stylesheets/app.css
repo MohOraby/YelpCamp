@@ -1,0 +1,24 @@
+.thumbnail {
+    padding: 0px;
+}
+.thumbnail img {
+    width: 100%;
+}
+.caption-full {
+    padding: 9px;
+}
+.delete {
+    display: inline;
+}
+.edit {
+    display: inline;
+}
+form#login {
+    margin: 0 auto;
+}
+div h1 {
+    text-align: center;
+}
+form#register {
+    margin: 0 auto;
+}
